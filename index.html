@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <!-- bootstrap theke icon newa hoice -->
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'bg-primary':"#179800"
+              }
+            }
+          }
+        }
+      </script>
+
+        <title>Assignment-3</title>
+
+        <style>
+            .font-sora{
+                font-family:"Sora", serif;
+            }
+        </style>
+
+     
+</head>
+<body class="font-sora">
+    <!-- header section -->
+     <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
+        <section class="container mx-auto">
+            <!-- navbar -->
+            <nav class="py-3 px-4 lg:px-0">
+                <div class="navbar ">
+                    <div class="navbar-start">
+                     <img class="lg:w-32 w-24" src="./c2-assets/logo-header.png" alt="">
+                    </div>
+                    <div class="navbar-center">
+                        <div class="navbar-center hidden lg:flex">
+                            <ul class="menu menu-horizontal px-1">
+                              <li ><a class="text-base font-medium"> Product</a></li>
+                              <li><a class="text-base font-medium">Services</a></li>
+                              <li><a class="text-base font-medium">Contact us</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                    <div class="navbar-end ">
+                       <div class=" navbar-end lg:flex gap-6 items-center hidden ">
+                        <i class="bi bi-search text-2xl"></i>
+                        <i class="bi bi-cart3 text-2xl"></i>
+                        <button class="btn btn-outline border-[#179800] text-base px-7">Success</button>
+                        <button class="btn bg-bg-primary hover:bg-green-500 px-7 py-4">Success</button>
+                       </div>
+
+                  </div>
+                  <div class="lg:hidden block">
+                    <i class="bi bi-list text-3xl text-green-600"></i>
+                  </div>
+            </nav>
+            <!-- banner section -->
+            <div class="flex flex-col justify-center items-center mt-14">
+                <div class="text-center">
+                    <h1 class="text-4xl font-bold lg:text-6xl lg:font-bold py-5">Freshness <span class="text-[#179800]">You Can <br>
+                        Count</span> On, Prices You’ll Love!</h1>
+                        <p class="text-gray-500">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+                </div>
+                <div>
+                    <img src="./c2-assets/hero-vegetables.png" alt="">
+                </div>
+            </div>
+
+        </section>
+     </header>
+
+<!-- main section -->
+      <main >
+        <!-- service section -->
+         <section class="container mx-auto xl:py-28 py-20 px-7 ">
+            <h1 class="text-4xl font-bold text-[#179800] py-9">Services</h1>
+            <div class="lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 md:gap-9 ">
+                <div class="card bg-[#EFEBE3] xl:w-96 md:80 mb-7 shadow-md">
+                    <div class="card-body flex flex-col justify-center items-center space-y-2">
+                        <div class="">
+                            <img src="./c2-assets/service.png" alt="">
+                        </div>
+                      <h2 class="card-title text-2xl">24/7 Services </h2>
+                      <p class="text-center text-gray-500">Explore our wide range of shop services designed to meet all your daily needs efficiently and affordably.?</p>
+                      
+                    </div>
+                  </div>
+                  <div class="card bg-[#EFEBE3] xl:w-96 md:80 mb-7  shadow-md">
+                    <div class="card-body flex flex-col justify-center items-center space-y-2">
+                        <div class="">
+                            <img src="./c2-assets/service.png" alt="">
+                        </div>
+                      <h2 class="card-title text-2xl">24/7 Services </h2>
+                      <p class="text-center text-gray-500">Explore our wide range of shop services designed to meet all your daily needs efficiently and affordably.?</p>
+                      
+                    </div>
+                  </div>
+                  <div class="card bg-[#EFEBE3]  xl:w-96 md:80  shadow-md">
+                    <div class="card-body flex flex-col justify-center items-center space-y-2">
+                        <div class="">
+                            <img src="./c2-assets/service.png" alt="">
+                        </div>
+                      <h2 class="card-title text-2xl">24/7 Services </h2>
+                      <p class="text-center text-gray-500">Explore our wide range of shop services designed to meet all your daily needs efficiently and affordably.?</p>
+                      
+                    </div>
+                  </div>
+            </div>
+         </section>
+
+
+         <!-- popular product section -->
+         
+      </main>
+
+</body>
+</html>
